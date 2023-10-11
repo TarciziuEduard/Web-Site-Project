@@ -1,0 +1,73 @@
+
+<form id="forminregistreaza"method="post" action="/api/utilizatori">
+    <div class="container">
+      <h2>Register</h2>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+
+      <label for="nume_utilizator"><b>Nume utilizator</b></label><br>
+      <input type="text" placeholder="Enter name user" name="username" id="nume_utilizator" required><br>
+  
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="password" id="psw" required><br>
+
+      <label for="nume"><b>Nume</b></label><br>
+      <input type="text" placeholder="Enter first name"  id="nume" ><br>
+
+      <label for="prenume"><b>Prenume</b></label><br>
+      <input type="text" placeholder="Enter last name"  id="prenume" ><br>
+  
+      <label for="email"><b>Email</b></label><br>
+      <input type="text" placeholder="Enter Email"  id="email" ><br>
+
+      <label for="tel"><b>Phone</b></label><br>
+      <input type="text" placeholder="Enter phone" id="tel" ><br>
+
+      <label for="sex">Sexul:</label><br>
+
+      <select id="sex">
+        <option value="masculin">Masculin</option>
+        <option value="feminin">Feminin</option>
+      
+      </select><br>
+
+      <label for="mancare">Alege mancarea preferata:</label><br>
+      <input list="mancare preferata" id="mancare ">
+      
+      <datalist id="mancare preferata">
+        <option value="Pizza">
+        <option value="Paste">
+        <option value="Shaorma">
+        <option value="Ciorba de burta">
+        <option value="Paine cu pate">
+      </datalist><br>
+
+      <label for="culoarea_preferata">Selecteaza culoarea preferata:</label><br>
+      <input type="color" id="culoarea_preferata"  value="#ff0000"><br>
+      
+      <label for="birthday">Data nasterii:</label><br>
+      <input type="date" id="birthday" ><br>
+
+      <label for="appt">Ora nasterii:</label><br>
+      <input type="time" id="appt" ><br>
+
+      <label for="points">Varsta</label><br>
+      <input type="range" id="points"  min="0" max="140"><br>
+      
+      <label for="url">Aceasta este pagina personala</label>
+      <a href="https://www.w3schools.com">Adresa paginii personale:</a> <br>
+
+      <label for="w3review">Descriere:</label><br>
+      <textarea id="w3review"  rows="4" cols="50">
+      
+
+      </textarea> 
+      <hr>
+  
+      <button class="registerbtn">Inregistreaza</button>
+    
+  </div>
+
+</form> 
+
+

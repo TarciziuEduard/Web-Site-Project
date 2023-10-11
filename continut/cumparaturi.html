@@ -1,0 +1,26 @@
+<section id="sectionProduse">
+    <h1>Adaugare Produs</h1>
+    <div class="verificaCumparaturi">
+    <div>
+      <label for="nume_produs">Nume produs:</label>
+      <input type="text" id="nume_produs">
+    </div>
+    <div>
+      <label for="cantitate">Cantitate</label>
+      <input type="text" id="cantitate">
+    </div>
+    <div>
+      <button id="AdaugaButton" onclick="adaugaProdus(document.getElementById('nume_produs').value,document.getElementById('cantitate').value)">Adauga</button>
+    </div>
+    <div id="rezultat"></div>
+    <div>
+        <table id="listaCumparaturi">
+            <tr>
+                <th>Nr.</th>
+                <th>Nume</th>
+                <th>Cantitate</th>
+            </tr>
+        </table>
+    </div>
+  </div>
+  </section>

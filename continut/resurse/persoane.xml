@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <numar>31</numar>
+            <localitate>Roman</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>Liceale</studii>
+        <limbi_straine>engleza</limbi_straine>
+    </persoana>
+    <persoana id="2">
+        <nume>Marius</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <numar>31</numar>
+            <localitate>Roman</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>profesionala</studii>
+        <limbi_straine>engleza</limbi_straine>
+    </persoana>
+    <persoana id="3">
+        <nume>Popescu</nume>
+        <prenume>Florin</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <numar>31</numar>
+            <localitate>Roman</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>superioare</studii>
+        <limbi_straine>franceza</limbi_straine>
+    </persoana>
+    <persoana id="4">
+        <nume>Cristi</nume>
+        <prenume>Sandu</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <numar>31</numar>
+            <localitate>Roman</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>fara studii</studii>
+        <limbi_straine>germana</limbi_straine>
+    </persoana>
+    <persoana id="5">
+        <nume>Alexandru</nume>
+        <prenume>Ionescu</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <numar>31</numar>
+            <localitate>Roman</localitate>
+            <judet>Neamt</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <studii>Liceale</studii>
+        <limbi_straine>chineza</limbi_straine>
+    </persoana>
+</persoane>
